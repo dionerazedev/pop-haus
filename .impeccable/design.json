@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-03T15:17:42Z",
+  "title": "Design System: Pop Haus",
+  "extensions": {
+    "colorMeta": {
+      "deep-plum": {
+        "role": "primary",
+        "displayName": "Deep Plum",
+        "canonical": "#3a1437",
+        "tonalRamp": ["oklch(15% 0.09 331)", "oklch(25% 0.09 331)", "oklch(35% 0.09 331)", "oklch(47% 0.09 331)", "oklch(60% 0.09 331)", "oklch(72% 0.09 331)", "oklch(84% 0.09 331)", "oklch(95% 0.09 331)"]
+      },
+      "burgundy-plum": {
+        "role": "primary",
+        "displayName": "Burgundy Plum",
+        "canonical": "#47143f",
+        "tonalRamp": ["oklch(15% 0.10 331)", "oklch(25% 0.10 331)", "oklch(35% 0.10 331)", "oklch(47% 0.10 331)", "oklch(60% 0.10 331)", "oklch(72% 0.10 331)", "oklch(84% 0.10 331)", "oklch(95% 0.10 331)"]
+      },
+      "celebration-pink": {
+        "role": "secondary",
+        "displayName": "Celebration Pink",
+        "canonical": "#f45d88",
+        "tonalRamp": ["oklch(15% 0.18 5)", "oklch(25% 0.18 5)", "oklch(35% 0.18 5)", "oklch(47% 0.18 5)", "oklch(60% 0.18 5)", "oklch(72% 0.18 5)", "oklch(84% 0.18 5)", "oklch(95% 0.18 5)"]
+      },
+      "petal-blush": {
+        "role": "secondary",
+        "displayName": "Petal Blush",
+        "canonical": "#f8dde4",
+        "tonalRamp": ["oklch(15% 0.035 6)", "oklch(25% 0.035 6)", "oklch(35% 0.035 6)", "oklch(47% 0.035 6)", "oklch(60% 0.035 6)", "oklch(72% 0.035 6)", "oklch(84% 0.035 6)", "oklch(95% 0.035 6)"]
+      },
+      "warm-cream": {
+        "role": "neutral",
+        "displayName": "Warm Cream",
+        "canonical": "#fff9f5",
+        "tonalRamp": ["oklch(15% 0.015 45)", "oklch(25% 0.015 45)", "oklch(35% 0.015 45)", "oklch(47% 0.015 45)", "oklch(60% 0.015 45)", "oklch(72% 0.015 45)", "oklch(84% 0.015 45)", "oklch(95% 0.015 45)"]
+      },
+      "porcelain-paper": {
+        "role": "neutral",
+        "displayName": "Porcelain Paper",
+        "canonical": "#fffcf9",
+        "tonalRamp": ["oklch(15% 0.006 60)", "oklch(25% 0.006 60)", "oklch(35% 0.006 60)", "oklch(47% 0.006 60)", "oklch(60% 0.006 60)", "oklch(72% 0.006 60)", "oklch(84% 0.006 60)", "oklch(95% 0.006 60)"]
+      },
+      "rose-paper": {
+        "role": "neutral",
+        "displayName": "Rose Paper",
+        "canonical": "#f5ece8",
+        "tonalRamp": ["oklch(15% 0.02 30)", "oklch(25% 0.02 30)", "oklch(35% 0.02 30)", "oklch(47% 0.02 30)", "oklch(60% 0.02 30)", "oklch(72% 0.02 30)", "oklch(84% 0.02 30)", "oklch(95% 0.02 30)"]
+      },
+      "near-black-ink": {
+        "role": "neutral",
+        "displayName": "Near-Black Ink",
+        "canonical": "#201721",
+        "tonalRamp": ["oklch(15% 0.035 327)", "oklch(25% 0.035 327)", "oklch(35% 0.035 327)", "oklch(47% 0.035 327)", "oklch(60% 0.035 327)", "oklch(72% 0.035 327)", "oklch(84% 0.035 327)", "oklch(95% 0.035 327)"]
+      },
+      "warm-muted-ink": {
+        "role": "neutral",
+        "displayName": "Warm Muted Ink",
+        "canonical": "#6e636b",
+        "tonalRamp": ["oklch(15% 0.025 333)", "oklch(25% 0.025 333)", "oklch(35% 0.025 333)", "oklch(47% 0.025 333)", "oklch(60% 0.025 333)", "oklch(72% 0.025 333)", "oklch(84% 0.025 333)", "oklch(95% 0.025 333)"]
+      },
+      "champagne-gold": {
+        "role": "tertiary",
+        "displayName": "Champagne Gold",
+        "canonical": "#d3a55f",
+        "tonalRamp": ["oklch(15% 0.105 76)", "oklch(25% 0.105 76)", "oklch(35% 0.105 76)", "oklch(47% 0.105 76)", "oklch(60% 0.105 76)", "oklch(72% 0.105 76)", "oklch(84% 0.105 76)", "oklch(95% 0.105 76)"]
+      },
+      "plum-rule": {
+        "role": "neutral",
+        "displayName": "Plum Rule",
+        "canonical": "rgba(58,20,55,.16)",
+        "tonalRamp": ["oklch(15% 0.09 331 / 0.16)", "oklch(25% 0.09 331 / 0.16)", "oklch(35% 0.09 331 / 0.16)", "oklch(47% 0.09 331 / 0.16)", "oklch(60% 0.09 331 / 0.16)", "oklch(72% 0.09 331 / 0.16)", "oklch(84% 0.09 331 / 0.16)", "oklch(95% 0.09 331 / 0.16)"]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(35% 0 0)", "oklch(47% 0 0)", "oklch(60% 0 0)", "oklch(72% 0 0)", "oklch(84% 0 0)", "oklch(95% 0 0)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Commanding hero statement with tightly stacked lines." },
+      "headline": { "displayName": "Headline", "purpose": "Editorial section openings and ceremonial pauses." },
+      "title": { "displayName": "Title", "purpose": "Service panels, catalog introductions, and substantial cards." },
+      "body": { "displayName": "Body", "purpose": "Planning guidance, descriptions, and factual context." },
+      "label": { "displayName": "Label", "purpose": "Actions, tabs, metadata, and concise operating signals." }
+    },
+    "shadows": [
+      { "name": "action-lift", "value": "0 10px 28px rgba(58,20,55,.2)", "purpose": "Short responsive lift beneath hovered primary actions." },
+      { "name": "editorial-media", "value": "0 18px 40px rgba(58,20,55,.12)", "purpose": "Low ambient layer under vertical reel cards." },
+      { "name": "floating-navigation", "value": "0 22px 40px rgba(58,20,55,.15)", "purpose": "Elevates the open mobile navigation sheet over page content." }
+    ],
+    "motion": [
+      { "name": "state-transition", "value": "200ms ease", "purpose": "Buttons, links, focus-adjacent color changes, and compact control feedback." },
+      { "name": "editorial-ease", "value": "cubic-bezier(.22,1,.36,1)", "purpose": "Softly resolves navigation and photographic movement without bounce." },
+      { "name": "reveal-move", "value": "500ms cubic-bezier(.22,1,.36,1)", "purpose": "Moves eligible content 12px into place when it enters the viewport." },
+      { "name": "hero-image", "value": "1100ms cubic-bezier(.22,1,.36,1)", "purpose": "Slow, restrained scale response on the primary event scene." },
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "Collapses transitions and animation to a near-instant state when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "600px" },
+      { "name": "compact-desktop", "value": "1100px" },
+      { "name": "stacked", "value": "1120px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The principal action for browsing, booking, and submitting an event request.",
+      "html": "<button class=\"ds-btn-primary\">SEND EVENT REQUEST <svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14m-5-5 5 5-5 5\"/></svg></button>",
+      "css": ".ds-btn-primary { display:inline-flex; min-height:50px; align-items:center; justify-content:center; gap:12px; padding:13px 24px; border:1px solid var(--plum, #3a1437); border-radius:2px; background:var(--plum, #3a1437); color:#fff; font-family:var(--sans, 'DM Sans', Arial, sans-serif); font-size:.78rem; font-weight:700; letter-spacing:.08em; line-height:1.2; text-transform:uppercase; cursor:pointer; transition:background .2s ease, transform .2s ease, box-shadow .2s ease; } .ds-btn-primary:hover { background:var(--burgundy, #47143f); transform:translateY(-2px); box-shadow:0 10px 28px rgba(58,20,55,.2); } .ds-btn-primary:focus-visible { outline:3px solid var(--pink, #f45d88); outline-offset:3px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "A supporting action that preserves the editorial field until hover.",
+      "html": "<button class=\"ds-btn-outline\">EXPLORE BALLOON DECOR</button>",
+      "css": ".ds-btn-outline { display:inline-flex; min-height:50px; align-items:center; justify-content:center; padding:13px 24px; border:1px solid var(--plum, #3a1437); border-radius:2px; background:transparent; color:var(--plum, #3a1437); font-family:var(--sans, 'DM Sans', Arial, sans-serif); font-size:.78rem; font-weight:700; letter-spacing:.08em; line-height:1.2; text-transform:uppercase; cursor:pointer; transition:background .2s ease, color .2s ease, transform .2s ease, box-shadow .2s ease; } .ds-btn-outline:hover { background:var(--plum, #3a1437); color:#fff; transform:translateY(-2px); box-shadow:0 10px 28px rgba(58,20,55,.2); } .ds-btn-outline:focus-visible { outline:3px solid var(--pink, #f45d88); outline-offset:3px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-text",
+      "description": "The square, paper-toned field used throughout the inquiry form.",
+      "html": "<label class=\"ds-field\"><span>EVENT DATE</span><input type=\"text\" placeholder=\"MM / DD / YYYY\"></label>",
+      "css": ".ds-field { display:block; color:var(--plum, #3a1437); font-family:var(--sans, 'DM Sans', Arial, sans-serif); } .ds-field span { display:block; margin-bottom:7px; font-size:.74rem; font-weight:700; letter-spacing:.04em; } .ds-field input { width:100%; min-height:48px; padding:11px 13px; border:1px solid rgba(58,20,55,.28); border-radius:0; background:var(--paper, #fffcf9); color:var(--ink, #201721); font:inherit; transition:border .2s ease, box-shadow .2s ease; } .ds-field input:focus { border-color:var(--plum, #3a1437); outline:0; box-shadow:0 0 0 3px rgba(244,93,136,.22); }"
+    },
+    {
+      "name": "Choice Chip",
+      "kind": "chip",
+      "refersTo": "choice-selected",
+      "description": "A square, tactile selection control for fulfillment and service categories.",
+      "html": "<label class=\"ds-choice\"><input type=\"checkbox\" checked><span><svg aria-hidden=\"true\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 12 4 4L19 6\"/></svg>BALLOON DECOR</span></label>",
+      "css": ".ds-choice { display:inline-flex; font-family:var(--sans, 'DM Sans', Arial, sans-serif); } .ds-choice input { position:absolute; width:1px; height:1px; opacity:0; } .ds-choice span { display:flex; min-height:44px; align-items:center; gap:7px; padding:10px 16px; border:1px solid rgba(58,20,55,.28); background:var(--paper, #fffcf9); color:var(--plum, #3a1437); font-size:.8rem; font-weight:600; cursor:pointer; } .ds-choice input:checked + span { border-color:var(--plum, #3a1437); background:var(--plum, #3a1437); color:#fff; } .ds-choice input:focus-visible + span { outline:3px solid var(--pink, #f45d88); outline-offset:2px; }"
+    },
+    {
+      "name": "Primary Navigation Link",
+      "kind": "nav",
+      "description": "A compact header link whose pink hairline marks the current or hovered section.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary navigation\"><a href=\"#\" class=\"active\">Rentals</a><a href=\"#\">Balloon Decor</a><a href=\"#\">Gallery</a></nav>",
+      "css": ".ds-nav { display:flex; align-items:center; justify-content:center; gap:25px; font-family:var(--sans, 'DM Sans', Arial, sans-serif); } .ds-nav a { position:relative; padding:29px 0 25px; color:#4c4149; font-size:.73rem; font-weight:600; text-decoration:none; white-space:nowrap; } .ds-nav a::after { position:absolute; right:0; bottom:19px; left:0; height:1px; background:var(--pink, #f45d88); content:''; transform:scaleX(0); transition:transform .2s ease; } .ds-nav a:hover::after, .ds-nav a.active::after { transform:scaleX(1); } .ds-nav a:focus-visible { outline:3px solid var(--pink, #f45d88); outline-offset:3px; }"
+    },
+    {
+      "name": "Catalog Tabs",
+      "kind": "nav",
+      "refersTo": "choice-selected",
+      "description": "An uninterrupted ruled register for comparing rental categories.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Rental categories\"><button role=\"tab\" aria-selected=\"true\">TABLES &amp; CHAIRS</button><button role=\"tab\" aria-selected=\"false\">TENTS</button><button role=\"tab\" aria-selected=\"false\">CONCESSIONS</button></div>",
+      "css": ".ds-tabs { display:flex; overflow-x:auto; border-top:1px solid var(--plum, #3a1437); border-bottom:1px solid rgba(58,20,55,.16); font-family:var(--sans, 'DM Sans', Arial, sans-serif); } .ds-tabs button { min-width:max-content; flex:1; padding:20px 18px; border:0; border-right:1px solid rgba(58,20,55,.16); background:transparent; color:var(--ink, #201721); font:inherit; font-size:.74rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; cursor:pointer; } .ds-tabs button[aria-selected='true'] { background:var(--plum, #3a1437); color:#fff; } .ds-tabs button:focus-visible { position:relative; z-index:1; outline:3px solid var(--pink, #f45d88); outline-offset:3px; }"
+    },
+    {
+      "name": "Price Row",
+      "kind": "custom",
+      "description": "A ruled, highly scannable inventory line that keeps exact pricing visible.",
+      "html": "<div class=\"ds-price-row\"><div><strong>60 INCH ROUND FOLDABLE TABLE</strong><span>Fits 8–10 people</span></div><b>$14</b></div>",
+      "css": ".ds-price-row { display:flex; min-height:65px; align-items:flex-start; justify-content:space-between; gap:20px; padding:0 0 15px; border-bottom:1px solid rgba(58,20,55,.16); color:var(--ink, #201721); font-family:var(--sans, 'DM Sans', Arial, sans-serif); } .ds-price-row strong, .ds-price-row span { display:block; } .ds-price-row strong { font-size:.92rem; line-height:1.35; } .ds-price-row span { margin-top:4px; color:var(--muted, #6e636b); font-size:.72rem; line-height:1.4; } .ds-price-row b { color:var(--plum, #3a1437); font-family:var(--serif, 'Cormorant Garamond', Georgia, serif); font-size:1.2rem; font-weight:400; white-space:nowrap; }"
+    },
+    {
+      "name": "Trust Rail Item",
+      "kind": "custom",
+      "description": "A compact proof point with a restrained champagne marker and ruled edge.",
+      "html": "<div class=\"ds-trust-item\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 12 4 4L19 6\"/></svg><p><strong>QUALITY YOU CAN TRUST</strong><span>Clean, stylish &amp; event-ready equipment.</span></p></div>",
+      "css": ".ds-trust-item { display:flex; align-items:flex-start; gap:14px; padding:27px 30px; border-right:1px solid rgba(58,20,55,.16); background:var(--paper, #fffcf9); font-family:var(--sans, 'DM Sans', Arial, sans-serif); } .ds-trust-item > svg { flex:0 0 auto; margin-top:2px; color:var(--gold, #d3a55f); } .ds-trust-item p { margin:0; line-height:1.35; } .ds-trust-item strong, .ds-trust-item span { display:block; } .ds-trust-item strong { color:var(--plum, #3a1437); font-size:.83rem; } .ds-trust-item span { margin-top:5px; color:var(--muted, #6e636b); font-size:.75rem; }"
+    },
+    {
+      "name": "Promo Card",
+      "kind": "card",
+      "refersTo": "promo-card",
+      "description": "A deep-plum service-book chapter for one time-sensitive package or offer.",
+      "html": "<article class=\"ds-promo\"><span>LIMITED-TIME OFFER</span><h3>August Special</h3><ul><li>10x10 Pop-Up Tent</li><li>16 Standard White Chairs</li><li>2 6ft Tables</li></ul><strong>$90</strong><small>Delivery not included.</small><button>RESERVE THE SPECIAL</button></article>",
+      "css": ".ds-promo { position:relative; overflow:hidden; padding:42px; background:var(--plum, #3a1437); color:#fff; font-family:var(--sans, 'DM Sans', Arial, sans-serif); } .ds-promo::after { position:absolute; width:170px; height:170px; right:-55px; top:-65px; border:1px solid rgba(211,165,95,.5); border-radius:50%; content:''; pointer-events:none; } .ds-promo > span { color:#efc786; font-size:.7rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; } .ds-promo h3 { margin:10px 0 12px; font-family:var(--serif, 'Cormorant Garamond', Georgia, serif); font-size:2.6rem; font-weight:400; line-height:1; } .ds-promo ul { margin:0 0 22px; padding-left:18px; font-size:.82rem; } .ds-promo > strong { display:block; font-family:var(--serif, 'Cormorant Garamond', Georgia, serif); font-size:3.8rem; font-weight:400; line-height:1; } .ds-promo > small { display:block; margin-bottom:22px; color:#dccfdb; font-size:.72rem; } .ds-promo button { min-height:50px; padding:13px 24px; border:1px solid var(--cream, #fff9f5); border-radius:2px; background:var(--cream, #fff9f5); color:var(--plum, #3a1437); font:inherit; font-size:.78rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; transition:background .2s ease, transform .2s ease, box-shadow .2s ease; } .ds-promo button:hover { background:#fff; transform:translateY(-2px); box-shadow:0 10px 28px rgba(58,20,55,.2); } .ds-promo button:focus-visible { outline:3px solid var(--pink, #f45d88); outline-offset:3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Garden Soirée Service Book",
+    "overview": "Pop Haus feels like a gracious event stylist's working service book: warm, cultivated, and useful enough to plan from. Expansive Cormorant Garamond headlines create invitation and ceremony, while compact DM Sans details make prices, choices, conditions, and next steps feel exact. The result is polished without becoming corporate and celebratory without becoming childish.\n\nThe visual world is photo-led and editorial. Cream and paper fields alternate with deep plum chapters; blush adds atmosphere, champagne marks trust and fine detail, and thin rules organize information more often than boxes do. Asymmetric image seams, long price lists, and deliberate changes of scale communicate that Pop Haus supplies a complete scene, not an isolated decor item.\n\nThe system rejects balloon-only framing and generic equal-card sameness when presenting the combined business. Rental equipment remains visually dominant, balloon styling acts as the finishing gesture, and factual operating detail is always allowed to share the page with beauty.",
+    "keyCharacteristics": [
+      "Garden-soirée warmth with service-book precision.",
+      "Large, tightly set serif headlines paired with compact sans-serif operating detail.",
+      "Cream, plum, blush, and restrained champagne fields separated by hairline rules.",
+      "Photography-led asymmetric compositions with rental-first visual balance.",
+      "Flat editorial surfaces at rest, with lift reserved for interaction."
+    ],
+    "rules": [
+      { "name": "The Champagne Accent Rule", "body": "Gold marks trust, specialness, or a fine decorative gesture; it never becomes a large background or primary action color.", "section": "colors" },
+      { "name": "The Pink Signal Rule", "body": "Saturated pink belongs to interaction and focus. Blush, not bright pink, carries broad celebratory atmosphere.", "section": "colors" },
+      { "name": "The Invitation-and-Instructions Rule", "body": "Cormorant Garamond invites; DM Sans instructs. Never set prices, form labels, or navigation in decorative serif type except for deliberately isolated price figures.", "section": "typography" },
+      { "name": "The Commanding Line Rule", "body": "Display headlines use intentional, compact line breaks and stay broad enough to avoid tall, accidental text columns.", "section": "typography" },
+      { "name": "The Editorial Seam Rule", "body": "Prefer a thin rule, tonal field change, or image edge to another rounded container when separating related material.", "section": "layout" },
+      { "name": "The Flat-at-Rest Rule", "body": "Do not add ambient shadows to ordinary cards, forms, catalog rows, or section surfaces; structure them with tone and rules.", "section": "elevation" },
+      { "name": "The Circle-as-Gesture Rule", "body": "Use circles for a compact action, measurement, or decorative mark—not as the default container silhouette.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do let one large serif statement, one strong image seam, or one plum chapter lead each section.",
+      "Do use exact price lists, operational notes, and hairline rules as part of the visual character rather than hiding them behind nested cards.",
+      "Do keep rentals visually dominant when presenting the combined party-rental and balloon-styling offer.",
+      "Do preserve visible pink focus states and reduced-motion behavior across every interactive component.",
+      "Do use square panels and near-square actions as the default shape language."
+    ],
+    "donts": [
+      "Don't turn the palette into a loud pink-and-gold party theme; bright pink signals interaction and champagne remains an accent.",
+      "Don't default to equal card grids, rounded floating tiles, or shadows on every surface.",
+      "Don't frame Pop Haus as balloon decor alone when the complete-event offer is in view.",
+      "Don't replace the serif/sans relationship with one all-purpose typeface or set operational details in display typography.",
+      "Don't crop or compose paired service imagery so balloons overpower tents, tables, chairs, linens, and the rest of the rental setup."
+    ]
+  }
+}
