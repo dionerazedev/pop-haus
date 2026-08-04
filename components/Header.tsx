@@ -1,6 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
+import { instagramCtaUrl } from "@/data/reels";
 import { Icon } from "./Icon";
 
 const nav = [
@@ -28,9 +30,8 @@ export function Header() {
         <span><Icon name="pin" size={15}/>Charlotte, NC</span>
         <span className="language">We speak English, Español &amp; Português!</span>
         <div className="topbar-links">
-          {/* TODO: Replace these disabled controls with Pop Haus's real social profile URLs. */}
-          <button type="button" disabled aria-label="Pop Haus Instagram link coming soon"><Icon name="instagram" size={16}/></button>
-          <button type="button" disabled aria-label="Pop Haus Facebook link coming soon"><Icon name="facebook" size={16}/></button>
+          <a href={instagramCtaUrl} target="_blank" rel="noreferrer" aria-label="Pop Haus Instagram reels"><Icon name="instagram" size={16}/></a>
+          <span aria-label="Pop Haus Facebook profile pending"><Icon name="facebook" size={16}/></span>
           <a href="tel:+17049169682"><Icon name="phone" size={15}/>(704) 916-9682</a>
         </div>
       </div>
@@ -38,7 +39,8 @@ export function Header() {
     <header className="header">
       <div className="site-container header-inner">
         <a href="#home" className="wordmark" aria-label="Pop Haus home">
-          <strong>POP HAUS</strong><span>RENTALS · BALLOONS · EVENTS</span>
+          <Image src="/images/pop-haus-party-rentals-logo.png" alt="Pop Haus Party Rentals logo" width={64} height={64} priority/>
+          <span><strong>POP HAUS</strong><small>RENTALS · BALLOONS · EVENTS</small></span>
         </a>
         <nav className="desktop-nav" aria-label="Primary navigation">
           {nav.map(([label, href]) => <a key={href} href={href} className={active === href ? "active" : ""}>{label}</a>)}
@@ -49,6 +51,10 @@ export function Header() {
         </button>
       </div>
       <nav id="mobile-navigation" className={`mobile-nav ${open ? "open" : ""}`} aria-label="Mobile navigation">
+        <div className="mobile-nav-brand" aria-hidden="true">
+          <Image src="/images/pop-haus-party-rentals-logo.png" alt="" width={54} height={54}/>
+          <Image src="/images/pop-haus-balloon-logo.png" alt="" width={46} height={46}/>
+        </div>
         {nav.map(([label, href]) => <a key={href} href={href} onClick={() => setOpen(false)}>{label}<Icon name="arrow"/></a>)}
         <a className="button" href="#contact" onClick={() => setOpen(false)}>Book Now</a>
       </nav>

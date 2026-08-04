@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { augustSpecial, gamePackages, rentalGroups } from "@/data/rentals";
 import { Icon } from "./Icon";
@@ -11,7 +12,7 @@ export function RentalCatalog() {
   return <section id="rentals" className="rentals-section section" aria-labelledby="rentals-title">
     <div className="site-container">
       <div className="section-heading-row">
-        <div><h2 id="rentals-title" className="section-title">Everything You Need<br/><em>for the Perfect Event</em></h2><p>Thoughtfully maintained essentials, transparent pricing and a team that makes setup simple.</p></div>
+        <div><Image className="section-brand-logo" src="/images/pop-haus-party-rentals-logo.png" alt="Pop Haus Party Rentals logo" width={92} height={92}/><h2 id="rentals-title" className="section-title">Everything You Need<br/><em>for the Perfect Event</em></h2><p>Thoughtfully maintained essentials, transparent pricing and a team that makes setup simple.</p></div>
         <a className="button button-outline" href="#contact">Request Availability</a>
       </div>
       <div className="catalog-shell reveal">

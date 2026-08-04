@@ -19,9 +19,8 @@ export function Hero() {
         </div>
       </div>
       <div className="hero-media">
-        {/* TODO: Replace this generated demonstration image with approved Pop Haus event photography. */}
+        {/* Placeholder hero source: replace with real Pop Haus event photography showing rentals plus balloon decor. */}
         <Image src="/images/pop-haus-hero.png" alt="Elegant outdoor Pop Haus event with a large white tent, white chairs, linen-covered tables, cocktail tables and a blush balloon backdrop" priority fill sizes="(max-width: 900px) 100vw, 62vw"/>
-        <span className="media-note">Sample imagery</span>
         <div className="hero-caption"><span>Rentals</span><span>Styling</span><span>Setup</span></div>
       </div>
     </div>
